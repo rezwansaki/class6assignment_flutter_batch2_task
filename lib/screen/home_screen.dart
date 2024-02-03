@@ -20,30 +20,43 @@ class HomeScreen extends StatelessWidget {
               leading: Icon(Icons.mail),
               title: Text("Inbox"),
             ),
-            Divider(),
             ListTile(
               leading: Icon(Icons.arrow_right),
               title: Text("Outbox"),
             ),
-            Divider(),
             ListTile(
               leading: Icon(Icons.favorite),
               title: Text("Fevorites"),
             ),
-            Divider(),
             ListTile(
               leading: Icon(Icons.archive),
               title: Text("Archive"),
             ),
-            Divider(),
             ListTile(
               leading: Icon(Icons.delete),
               title: Text("Trash"),
             ),
-            Divider(),
             ListTile(
               leading: Icon(Icons.circle),
               title: Text("Spam"),
+            ),
+            Divider(),
+            ListTile(
+              leading: Icon(Icons.circle),
+              title: Text("Family"),
+            ),
+            ListTile(
+              leading: Icon(Icons.circle),
+              title: Text("Friends"),
+            ),
+            ListTile(
+              leading: Icon(Icons.circle),
+              title: Text("Work"),
+            ),
+            Divider(),
+            ListTile(
+              leading: Icon(Icons.settings),
+              title: Text("Settings and account"),
             ),
           ],
         )),

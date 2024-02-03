@@ -18,24 +18,33 @@ class HomeScreen extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.mail),
-              title: Text("Mailbox"),
+              title: Text("Inbox"),
             ),
             Divider(),
             ListTile(
-              leading: Icon(Icons.mic),
-              title: Text("Records"),
+              leading: Icon(Icons.arrow_right),
+              title: Text("Outbox"),
             ),
             Divider(),
             ListTile(
-              leading: Icon(Icons.add_circle),
-              title: Text("New Records"),
+              leading: Icon(Icons.favorite),
+              title: Text("Fevorites"),
             ),
             Divider(),
             ListTile(
-              leading: Icon(Icons.build),
-              title: Text("Settings"),
+              leading: Icon(Icons.archive),
+              title: Text("Archive"),
             ),
             Divider(),
+            ListTile(
+              leading: Icon(Icons.delete),
+              title: Text("Trash"),
+            ),
+            Divider(),
+            ListTile(
+              leading: Icon(Icons.circle),
+              title: Text("Spam"),
+            ),
           ],
         )),
         body: const Text("Awesome"));
